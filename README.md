@@ -8,7 +8,7 @@ The Posterous gem provides posting to Posterous.com using your email, password, 
 
 Posting images with posts, posting only images and pulling down your posts will be available very soon. 
 
-## FEATURES/PROBLEMS:
+## FEATURES/PROBLEMS
 
 * All Fields are optional
 * Media files are not yet implemented
@@ -19,14 +19,14 @@ Posting images with posts, posting only images and pulling down your posts will 
 * Get their primary Site ID
 * This is very throughly tested
 
-## SYNOPSIS:
+## SYNOPSIS
 
 1. Instantiate your account
 
     * You can provide just the email and password
-    
+
         account = Posterous::Client.new('email_address', 'password')
-      
+
     * Or you can provide the ID as a string or integer
 
         account = Posterous::Client.new('email_address', 'password', 68710)
@@ -107,15 +107,15 @@ Posting images with posts, posting only images and pulling down your posts will 
 
     "media"       Optional. File data. Multiple files OK
 
-## REQUIREMENTS:
+## REQUIREMENTS
 
 * HTTPparty, & Mocha (For Tests)
 
-## INSTALL:
+## INSTALL
 
 * gem install posterous
 
-## LICENSE:
+## LICENSE
 
 (The MIT License)
 
